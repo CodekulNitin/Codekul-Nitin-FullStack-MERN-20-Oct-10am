@@ -1,0 +1,23 @@
+#H6{
+    font-size: 20px;
+}
+.Header{
+    padding-left: 70px;
+    font-size: xx-large;
+    width: 60%;
+    height: 600px;
+    border-radius: 50%;
+    margin-left: 40px;
+    box-shadow: 1px 1px 1px 1px;
+}
+table,th,td,tr{
+    border: 2px solid black;
+}
+h1{
+    color: chartreuse;
+    background-color: darkgreen;
+}
+h6{
+    font-size: 40px;
+    font-style: italic;
+}

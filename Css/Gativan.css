@@ -1,0 +1,118 @@
+.container{
+    height: 100%;
+    width: 99%;
+    display: grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 20px;
+}
+.box1{
+    height: 155px;
+    width: 100%;
+    background-color: aqua;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    
+}
+.header{
+    height: 450px;
+    width: 1200px;
+    background-color: darkslateblue;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    position: relative;
+    top: -300px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    
+}
+.box2{
+    height: 355px;
+    width: 255px;
+    background-color: blueviolet;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+
+}
+.box3{
+    height: 155px;
+    width: 155px;
+    margin-left: 60px;
+    background-color: coral;
+    margin-top: 40px;
+}
+.box4{
+    height: 155px;
+    width: 155px;
+    margin-left: 60px;
+    background-color: crimson;
+    margin-top: 40px;
+}
+.box5{
+    height: 155px;
+    width: 155px;
+    background-color: rgb(207, 220, 20);
+    position: relative;
+    top: -150px;
+    left: 400px;
+}
+.box6{
+    height: 155px;
+    width: 155px;
+    background-color: rgb(20, 107, 220);
+    position: relative;
+    top: -150px;
+    left: 400px;
+}
+.box7{
+    height: 655px;
+    width: 520px;
+    background-color: rgb(77, 45, 51);
+    position:relative;
+    top: -350px;
+    left: 550px;
+}
+.container2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    width: 1200px;
+    background-color: darkslategrey;
+    gap: 10px;
+    position: relative;
+    top: -1230px;
+    left: 20px;
+    padding: 10px;
+}
+.box8{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.box9{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.box10{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.box11{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.box12{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
+.box13{
+    height: 200px;
+    width: 200px;
+    background-color: firebrick;
+}
